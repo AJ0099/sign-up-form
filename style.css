@@ -124,6 +124,10 @@
   border-bottom: 2px solid #e13636;
 }
 
+.input-field input::placeholder {
+  color: #e13636;
+}
+
 .sign-up {
   height: 30vh;
   width: auto;
