@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Norse;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.img img {
+  width: 35vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  color: #831311;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35vw;
+  height: 15vh;
+  z-index: 10;
+  text-align: center;
+}
+
+.logo img {
+  width: 20vh;
+}
+
+.logo_text {
+  font-family: Norse;
+  font-size: 5rem;
+}
+
+.right {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: #e13636;
+  background-color: black;
+}
+
+.words-of-wisdom {
+  height: 30vh;
+  width: 65vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  gap: 10px;
+}
+
+.the-quote {
+  line-height: 1.1;
+}
+
+.quote-by {
+  align-self: flex-end;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  justify-content: center;
+  gap: 20px;
+  padding: 4vw;
+}
+
+.name-field {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-field {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.password-field {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-field input {
+  width: 20vw;
+  height: 3vh;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgb(45, 36, 36);
+  outline: none;
+  border-radius: 4px;
+  color: #e13636;
+}
+
+.input-field input:focus {
+  outline: none;
+  border-bottom: 2px solid #e13636;
+}
+
+.sign-up {
+  height: 30vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2vw;
+  margin-left: 2vw;
+}
+
+.sign-up-button {
+  width: 15vw;
+  padding: 1vh 3vw;
+  text-align: center;
+  font-size: 1.5rem;
+  background: none;
+  border: 2px solid #e13636;
+  outline: none;
+  color: #e13636;
+  border-radius: 18px;
+}
+
+.sign-up div {
+  font-size: 1.5rem;
+}
